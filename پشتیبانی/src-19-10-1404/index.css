@@ -1,0 +1,15 @@
+
+/* CSS دلخواه فقط محدود */
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 10, 2);
+  background-color: rgb(202, 249, 234);
+  font-family: sans-serif;
+}
+
+.wrapper {
+  background-color: rgb(60, 201, 147);
+  min-height: 100vh;
+  padding: 1rem 1.5rem 0rem; /* فاصله از Navbar ثابت */
+}
