@@ -6,7 +6,7 @@
     "node": "20.x",
     "npm": "10.x"
   },
-  "packageManager": "npm@10.9.2",
+  "packageManager": "pnpm@9.15.0",
   "dependencies": {
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
