@@ -126,25 +126,24 @@ const MonitoringStatement = () => {
     }
   };
   //====================   آماده سازی اطلاعات برای پرینت و گزارش ===================
-  // eslint-disable-next-line no-unused-vars
-  const extractMonitoringBaseInfo = () => {
-    return {
-      id: "monitoring_base_info",
-      type: "source",
-      page: "MonitoringStatement",
-      title: "اطلاعات پایه محاسبات خدمات نظارت",
-      sections: sections.map(section => ({
-        title: section.title,
-        fields: section.fields.map(field => ({
-          id: field.id,
-          key: `field_${field.id}`,
-          label: field.label,
-          value: localStorage.getItem(`field_${field.id}`) || ""
-        }))
-      }))
-    };
-  };
-
+  /*  const extractMonitoringBaseInfo = () => {
+     return {
+       id: "monitoring_base_info",
+       type: "source",
+       page: "MonitoringStatement",
+       title: "اطلاعات پایه محاسبات خدمات نظارت",
+       sections: sections.map(section => ({
+         title: section.title,
+         fields: section.fields.map(field => ({
+           id: field.id,
+           key: `field_${field.id}`,
+           label: field.label,
+           value: localStorage.getItem(`field_${field.id}`) || ""
+         }))
+       }))
+     };
+   };
+ */
 
   return (
 
