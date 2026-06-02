@@ -126,6 +126,7 @@ const MonitoringStatement = () => {
     }
   };
   //====================   آماده سازی اطلاعات برای پرینت و گزارش ===================
+  // eslint-disable-next-line no-unused-vars
   const extractMonitoringBaseInfo = () => {
     return {
       id: "monitoring_base_info",
